@@ -1,0 +1,49 @@
+div{
+    border: 5px solid green;
+    height:100px;
+    width:100px;
+    margin:20px;
+    display:inline-block;
+}
+
+section{
+    border:1px solid blue;
+}
+
+#static #middle{
+    position:static; /*offsets don't work for static*/
+    top:100px;
+    left:100ps;
+}
+
+#relative #middle{   /*offsets do work*/
+    position: relative;   
+    /* top: 100px;
+    left: 100px; */
+}
+
+#absolute{
+    position:relative;
+}
+
+#absolute #middle{   /*absolute take positions by its recentlu positioned parents*/
+    position: absolute;
+    /* bottom:100px; */
+}
+/* #fixed{   dont depend on parent position 
+    position:relative;
+} */
+
+ /* #fixed #middle{    offsets only depend on body only irrespective of parents positioning*/
+    /* position: fixed; */
+    /* top:100px;
+}  */
+#sticky{
+    height: 300px;
+}
+
+#sticky #middle{  /*mixture of fixed and relative ,it behaves like relative in its parent. */
+    position: sticky;
+    top:100px;
+}
+

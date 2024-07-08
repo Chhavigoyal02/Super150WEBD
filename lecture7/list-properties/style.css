@@ -1,0 +1,33 @@
+/* li{
+    border: 5px solid red;     width style color*/
+    /* list-style-type: disc; */
+    /* list-style-type: circle; */
+    /* list-style-position: outside; */
+    /* list-style-position: inside;
+
+} */
+
+li{
+    display:inline-block;
+    border-width: 5px ;    
+    border-style: solid;
+    border-color: red;
+    border-top-width: 5px;
+    border-style: dashed;
+    border-color:green; 
+}
+
+/* div{
+    border:2px solid red;
+    margin: 20px; 
+    margin-right:5px;
+    margin-top:15px;
+    margin-left:10px;
+    margin-bottom:20px;
+    margin: 10px 20px 15px 5px; top right bottom left   --- clockwise
+    margin: 20px 15px;   /*top-bottom left-right
+    margin: 20px 5px 10px;  /*top left-right bottom
+}  */
+
+
+

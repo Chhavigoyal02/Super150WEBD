@@ -1,0 +1,7 @@
+h1{
+    /* color: rgb(220,10,139); */
+     /*color: rgba(255,0,0,0.5); here a stands for alpha channel  and a can lies between 0 and 1*/
+    /* color: rgba(255,0,0); */
+    /* color:#ff1379;  */
+    color:#ff1379ff;/*hexadecimal cab have alpha channel ,also last two units for a*/
+}

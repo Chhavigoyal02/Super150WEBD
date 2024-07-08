@@ -1,0 +1,22 @@
+h1::after{
+    content: "lets study";
+}
+
+h1::before{
+    content:"light kahan hai";
+    content:'\1F498';
+}
+
+h1:hover{
+    color:pink;
+}
+
+p::first-line{
+    text-transform : uppercase;
+    background-color:yellow;
+}
+
+p::first-letter{
+    background-color: red;
+    font-size:60px;
+}

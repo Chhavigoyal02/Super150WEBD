@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!--external css-->
+    <style> 
+        h1{
+            color: red;
+            background-color: blue;
+        }
+    </style> 
+</head>
+<body>
+    <h1 style="color:azure">abc</h1>
+    <h1 style="color:azure">pqr</h1>
+    <h1 style="color:azure">xyz</h1>
+    <table border="2" cellspacing ="10" cellpadding="10" align="center" style="color:white; background-color: black;"> <!-- inline css -->
+        <thead>
+            <tr>
+                <th>DAYS</th>
+                <th>MONDAY</th>
+                <th>TUESDAY</th>
+                <th>WEDNESDAY</th>
+                <th>THURSDAY</th>
+                <th>FRIDAY</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <td align="Center">Math</td>
+                <td>Science</td>
+                <td>SST</td>
+                <td>Hindi</td>
+                <td>Games</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>Bio</td>
+                <td>Science</td>
+                <td rowspan="2">SST</td>
+                <td>Hindi</td>
+                <td>Maths</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>Math</td>
+                <td>English</td>
+                <!-- <td>SST</td> -->
+                <td>Hindi</td>
+                <td>Computer</td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td>Math</td>
+                <td>Science</td>
+                <td>SST</td>
+                <td>Hindi</td>
+                <td>Games</td>
+            </tr>
+            <tr>
+                <th>5</th>
+                <td colspan="2" align="center">Math</td>
+                <!-- <td>Math</td> -->
+                <td>SST</td>
+                <td>Hindi</td>
+                <td>Games</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="6">Time Table For GLA</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

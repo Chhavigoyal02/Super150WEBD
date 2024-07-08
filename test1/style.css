@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0;
+}
+#fixed{
+    width:100%;
+    height: 8%;
+    position: fixed;
+    background-color: bisque;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    top:0;
+}
+section{
+    padding-top:100px;
+    margin-bottom: 10px;
+}
+#heading{
+    text-align:center;
+    color:purple;
+    margin:60px;
+    padding:100px;
+    background-color: grey;
+    margin-left: 125px;
+    margin-right: 125px;
+    border-radius: 30px;
+    height:15px;
+}
+div img{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

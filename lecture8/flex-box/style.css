@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+div{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    /* display:inline-block; */
+    /* display: flex; */
+}
+
+section{
+    border:2px solid red;
+    height: 700px;
+    display:flex; /*by this aa the items inside section becomes the flex item*/
+    flex-direction:column;/* direction in which main axis lies (by default- row)*/
+
+
+    /* justify content property is for along main axis*/
+    /*justify-content: flex-start;  (by default)*/
+    /*justify-content: flex-end;*/
+    /*justify-content: space-evenly;*/  
+    /* justify-content: space-around; sum of corner spaces is equal to middle spaces */
+    justify-content : space-between;
+    /*no spaces in edges, spaces equally distributed in middle*/ 
+
+
+    /* align-items property is for along cross axis*/
+    /* align-items:center; */
+    /* align-items:stretch; */
+    /* align-items:flex-start; */
+    /* align-items:flex-end; */
+    /* align-items:stretch;   (by default)*/
+    
+    flex-wrap: wrap;   /*by default its vzlue is no wrap*/
+   /* align-content:flex-start; controls the spaces between rows after the wrap*/
+    align-content: space-around; /*by default*/
+    /*align-content:space-evenly;*/
+} 

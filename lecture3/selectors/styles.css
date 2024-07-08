@@ -1,0 +1,25 @@
+/* element sel. */
+h1{
+    color:red
+}
+
+/* id selector */
+#samarth{
+    background-color: green;
+}
+
+/* class selector */
+.sam{
+    font-size:50px;
+}
+
+/* attribute selector */
+input[type="text"]{
+    background-color: black;
+    color:white ;
+}
+
+/* universal selector */
+*{
+    border:2px solid black;
+}

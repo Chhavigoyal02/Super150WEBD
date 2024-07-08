@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0;
+}
+
+span{
+    border:20px solid red;
+    width:200px;
+    height: 100px;
+    padding:10px; 
+    margin:100px;
+    display:inline-block;  
+}
+
+div{
+    border:20px solid red;
+    width:200px;
+    height: 100px;
+    padding:10px; 
+    margin:100px;  
+
+    /* visibility:hidden;  here it is taking the space*/
+    display:none; /*not taking space*/
+
+}

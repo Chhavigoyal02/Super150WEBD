@@ -1,0 +1,23 @@
+/* ul>li{
+    font-size:2em;twice of tis parents size
+    font-size:200%;
+    font-size: 2rem;for root 
+} */
+
+/* section{
+    width:500px;
+    background-color: aqua;
+}
+
+div{
+    width:50%;
+    background-color:aquamarine;
+} */
+
+section{
+    width: 50vw;
+    height: 50vh;
+    background-color:darkblue;
+
+
+}
