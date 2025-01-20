@@ -1,0 +1,65 @@
+<!-- ReactJS : it is a Javascript library
+
+Difference between framework and library:
+-library are flexible but a framework is rigid.
+
+NextJS is a framework of ReactJS.
+
+why is react more famous than other libraries/ what are the advantages of react
+-react create SPA(Single page Application) ----there is no loading time
+-has reusable components
+-react has virtual dome
+-html code can be written in js code using react because it uses jsx
+-it is a component based architecture (divide and rule)
+
+what are disadvantages of react/ why was NextJS introduced
+-the search engine optimisation is very poor in react (since it is a SPA the webrowser is not able to know whether a new page is added 
+or page is not reloaded so the web browser does not send its web crawlers and the keywords are not identified/given indexes)
+-client side rendering
+-react has a unidirectional data flow i.e. from a parent to a child according to the way react is written
+
+how many types of components:
+two
+-class based components --responsible for dynamic changes
+-functional components --responsible for static changes
+
+previously in react class based components were used (functional components were also there practically) but since it was difficilt to use 
+class based componets , we started using functional components
+but since functional components are for static changes, hooks were introduced ( they are like promise, as promise is a function it is also 
+a function)
+hooks are now used with functional components to ensure easy and dynamic nature
+
+what is a component
+-component is a function which returns jsx
+-it returns a mixture of html+JS code i.e. jsx is returned
+
+reusable components
+components are reused (or called) by
+- <sam/>
+- <sam> ...... </sam>
+here sam is a component
+
+component based architecture(divide and rule) 
+-we can divide our code into infinite number of components
+-if a single component has an error and there is no correlation with the other components , then only the component will stop working 
+without any effect on the other components
+
+a react application can be made using various ways
+-parcel
+-vite
+-create own react
+-CRA(create react app)
+these all are bundlers 
+
+the browser (it has layout engine and JS engine) can only understand javascript , thus can not understand jsx.
+to convert jsx into pure js bable(it is a compiler) is used.
+
+In an application there are many files(including html, css, js, jsx files) these can not all be send to the browser so bundlers are used
+to handle these files, make them precise and ensure smooth understanding between the browser and the code
+
+CRA is not optimal to use. Vite/ Parcel are better.
+
+
+what is CDN
+-
+-CDNs are not good for production because they need a constant inteernet connection -->

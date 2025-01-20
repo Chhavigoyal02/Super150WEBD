@@ -1,0 +1,22 @@
+/* .first{
+    color: indigo;
+}
+
+.second{
+    background-color: crimson;
+}
+
+.third{
+    border : 2px solid #F9DC5C;
+}
+
+
+.sam{
+    font-size: 50px;
+} */
+
+#container{
+    background-color: aqua;
+    width:100px;
+    height: 100px;
+}
