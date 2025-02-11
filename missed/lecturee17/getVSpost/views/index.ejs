@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Get VS Post</h1>
+    <!-- default method of submitting a form is GET method -->
+    <fieldset>
+        <legend>Get</legend>
+        <form action="/user" method="GET">
+            <label for="name">Name:</label>
+            <input type="text" name="userName" id="name">
+            <label for="age">Age:</label>
+            <input type="text" name="age" id="age">
+
+            <button type="submit">submit</button>
+        </form>
+    </fieldset>
+
+    <hr>
+    <br>
+    <hr>
+
+    <fieldset>
+        <legend>Post</legend>
+        <form action="/user" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" name="userName" id="name">
+            <label for="age">Age:</label>
+            <input type="text" name="age" id="age">
+
+            <button type="submit">submit</button>
+        </form>
+    </fieldset>
+</body>
+
+</html>

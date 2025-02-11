@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>fetch</h1>
+
+    <!-- Fetch -->
+    <!-- fetch ke case m saara data ek hi baar m nhi aata, it comes in chunks or pieces or partial data(i.e. meta data/headers) which is wrong as it is not the original data -->
+     <!-- fetch returns a promise which has two cases - resolve (then), reject(catch) -->
+      <!-- now in then, mai apna pura data mangwa skti hu by res.json(); now data will not come in small chunks, poora data aane ka wait karega-->
+    <!-- now this .json() method also returns a promise -->
+     <!-- fetch mein by default get method hota hai -->
+    <script src="app.js"></script>
+</body>
+</html>
